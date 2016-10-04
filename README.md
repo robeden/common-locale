@@ -1,14 +1,7 @@
 Logic Artisan Common Core
 =========================
 
-A collection of common utilities and helper functions useful for a
-wide variety of applications.
-
-This collection isn't meant to be exhaustive and, in fact, we'd love
-for it to be as small as possible. More widely used collections (such
-as Guava) or the JDK itself are preferred. As new functionality from
-this library is possible with those it will be migrated out of this
-collection.
+Localization framework for Java with compile-time verification.
 
 
 Download
@@ -18,13 +11,13 @@ Download [the latest JAR][1] or grab via Maven:
 ```xml
 <dependency>
   <groupId>com.logicartisan</groupId>
-  <artifactId>common-core</artifactId>
+  <artifactId>common-locale</artifactId>
   <version>1.0.0</version>
 </dependency>
 ```
 or Gradle:
 ```groovy
-compile 'com.logicartisan:common-core:1.0.0'
+compile 'com.logicartisan:common-locale:1.0.0'
 ```
 
 
