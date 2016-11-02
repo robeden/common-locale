@@ -4,6 +4,13 @@ Logic Artisan Common Core
 Localization framework for Java with compile-time verification.
 
 
+Deprecated
+----------
+
+This library has significant architectural issues which impair scalability.
+
+
+
 Download
 --------
 
