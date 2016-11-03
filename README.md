@@ -9,6 +9,7 @@ Deprecated
 
 This library has significant architectural issues which impair scalability.
 
+[![Javadocs](http://www.javadoc.io/badge/com.logicartisan/common-locale.svg)](http://www.javadoc.io/doc/com.logicartisan/common-locale)
 
 
 Download
