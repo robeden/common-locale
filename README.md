@@ -32,8 +32,6 @@ compile 'com.logicartisan:common-locale:1.0.0'
 License
 =======
 
-    Copyright 2010 Rob Eden
-
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
@@ -47,4 +45,4 @@ License
     limitations under the License.
 
 
- [1]: https://search.maven.org/remote_content?g=com.logicartisan&a=common-core&v=LATEST
+ [1]: https://search.maven.org/remote_content?g=com.logicartisan&a=common-locale&v=LATEST
