@@ -1,4 +1,4 @@
-Logic Artisan Common Core
+Logic Artisan Common Locale
 =========================
 
 Localization framework for Java with compile-time verification.
