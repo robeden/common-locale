@@ -4,21 +4,25 @@
  */
 package com.starlight.locale;
 
-import junit.framework.TestCase;
+import org.junit.jupiter.api.Test;
 
 import java.util.Locale;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 /**
  *
  */
-public class TextResourceKeyTest extends TestCase {
+public class TextResourceKeyTest {
+	@Test
 	public void testDefault() {
 		assertEquals( "One", TestResourceList.ONE.toString() );
 		assertEquals( "Two", TestResourceList.TWO.toString() );
 	}
 
 
+	@Test
 	public void testSpanish() {
 		Locale spanish = new Locale( "es" );
 		assertEquals( "Uno", TestResourceList.ONE.getValue( spanish ) );
@@ -26,6 +30,7 @@ public class TextResourceKeyTest extends TestCase {
 	}
 
 
+	@Test
 	public void testUnknownLocale() {
 		Locale foo = new Locale( "foo" );
 
